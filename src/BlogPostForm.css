@@ -1,0 +1,21 @@
+/* CSS for BlogPostForm */
+.form-wrapper {
+    width: 60vw;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  .btn-primary {
+    margin-top: 1.5rem;
+  }
+  
