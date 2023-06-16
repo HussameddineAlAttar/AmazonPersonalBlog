@@ -43,7 +43,7 @@ function BlogPost(props: Props) {
         )}
         <Card.Body onClick={handleToggleModal}>
           <Card.Title>{post.title}</Card.Title>
-          <Card.Text>{truncateText(post.text, 700)}</Card.Text>
+          <Card.Text>{truncateText(post.text, 580)}</Card.Text>
           {post.readmoreUrl && <Card.Link href={post.readmoreUrl}>Read more</Card.Link>}
         </Card.Body>
         <Card.Footer>
